@@ -244,6 +244,7 @@ def try_methods_and_functions():
       8. Draw a SQUARE whose sides are each of length 50.
     """
     BowserJr = rg.SimpleTurtle('turtle')
+    BowserJr.pen = rg.Pen('blue', 5)
 
     BowserJr.backward(150)
 
